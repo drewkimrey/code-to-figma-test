@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open \"http://localhost:5173/#figmacapture=0d64fd97-7dd8-40e3-8f82-836379502565&figmaendpoint=https%3A%2F%2Fmcp.figma.com%2Fmcp%2Fcapture%2F0d64fd97-7dd8-40e3-8f82-836379502565%2Fsubmit&figmadelay=1000\")"
+    ]
+  }
+}

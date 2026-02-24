@@ -15,7 +15,7 @@ function App() {
       <header style={{ marginBottom: '4rem', textAlign: 'center' }}>
         <h1 style={{ fontSize: 'var(--font-size-3xl)', marginBottom: 'var(--spacing-2)' }}>EdTech Design System</h1>
         <p style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--font-size-lg)' }}>
-          A ParentSquare-inspired component gallery for Claude-to-Figma testing. Built with semantic React & CSS.
+          A comprehensive component gallery for Claude-to-Figma testing. Built with semantic React & CSS.
         </p>
       </header>
 

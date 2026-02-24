@@ -1,0 +1,55 @@
+.edtech-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-1);
+    margin-bottom: var(--spacing-4);
+}
+
+.edtech-input-group__label {
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-text-primary);
+}
+
+.edtech-input {
+    padding: var(--spacing-2) var(--spacing-3);
+    font-size: var(--font-size-md);
+    font-family: inherit;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background-color: var(--color-bg-surface);
+    color: var(--color-text-primary);
+    transition: border-color 0.2s, box-shadow 0.2s;
+    width: 100%;
+}
+
+.edtech-input:focus {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px var(--color-primary-light);
+}
+
+.edtech-input:disabled {
+    background-color: var(--color-bg-subtle);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.edtech-input--error {
+    border-color: var(--color-danger);
+}
+
+.edtech-input--error:focus {
+    border-color: var(--color-danger);
+    box-shadow: 0 0 0 3px var(--color-danger-light);
+}
+
+.edtech-input-group__error {
+    font-size: var(--font-size-xs);
+    color: var(--color-danger);
+}
+
+.edtech-input-group__help {
+    font-size: var(--font-size-xs);
+    color: var(--color-text-secondary);
+}

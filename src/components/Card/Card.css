@@ -1,0 +1,46 @@
+.edtech-card {
+    background-color: var(--color-bg-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.edtech-card--padding-normal .edtech-card__header,
+.edtech-card--padding-normal .edtech-card__body,
+.edtech-card--padding-normal .edtech-card__footer {
+    padding: var(--spacing-4) var(--spacing-5);
+}
+
+.edtech-card--padding-large .edtech-card__header,
+.edtech-card--padding-large .edtech-card__body,
+.edtech-card--padding-large .edtech-card__footer {
+    padding: var(--spacing-6);
+}
+
+.edtech-card--padding-none .edtech-card__header,
+.edtech-card--padding-none .edtech-card__body,
+.edtech-card--padding-none .edtech-card__footer {
+    padding: 0;
+}
+
+.edtech-card__header {
+    border-bottom: 1px solid var(--color-border-subtle);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.edtech-card__body {
+    flex: 1;
+}
+
+.edtech-card__footer {
+    border-top: 1px solid var(--color-border-subtle);
+    background-color: var(--color-bg-subtle);
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-3);
+}

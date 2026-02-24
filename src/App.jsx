@@ -17,6 +17,27 @@ function App() {
         <p style={{ color: 'var(--color-text-secondary)', fontSize: 'var(--font-size-lg)' }}>
           A comprehensive component gallery for Claude-to-Figma testing. Built with semantic React & CSS.
         </p>
+        <div style={{ marginTop: '1.5rem' }}>
+          <a
+            href="https://www.figma.com/design/Y3MYmfsUmGzDJA439rE6tV/code-to-figma-test?node-id=0-3&t=YJr9Y61OwssrK9Na-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              backgroundColor: '#0acf83', // Figma green
+              color: 'var(--color-bg-surface)',
+              fontWeight: 'var(--font-weight-semibold)',
+              padding: '0.5rem 1rem',
+              borderRadius: 'var(--radius-full)',
+              textDecoration: 'none',
+              boxShadow: 'var(--shadow-sm)'
+            }}
+          >
+            <Settings size={18} /> View Figma Design
+          </a>
+        </div>
       </header>
 
       <div style={{ display: 'grid', gap: '4rem' }}>
@@ -209,7 +230,7 @@ function App() {
         </section>
       </div>
 
-    </div>
+    </div >
   );
 }
 
